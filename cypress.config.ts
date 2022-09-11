@@ -47,6 +47,7 @@ async function setupNodeEvents(
 }
 
 export default defineConfig({
+  video: false,
   e2e: {
     specPattern: '**/*.feature',
     supportFile: false,

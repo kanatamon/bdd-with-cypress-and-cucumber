@@ -9,6 +9,19 @@ with modern setups including Typescript and
 
 ## Getting started
 
+The following commands is basically invoke `cypress open`. This will open a
+cypress UI.
+
 ```sh
 npm test
 ```
+
+Alternatively, Cpypress can run using electron browser, which mean we can run
+the tests on terminal.
+
+```sh
+npx cypress run
+```
+
+> The `cypress run` will by default record video for each spec. We can turn it
+> on/off by setting `video` within the configuration.
