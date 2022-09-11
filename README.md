@@ -25,3 +25,15 @@ npx cypress run
 
 > The `cypress run` will by default record video for each spec. We can turn it
 > on/off by setting `video` within the configuration.
+
+## Limitations
+
+Cypress can do really great works within javascript's ecosystem. But it automates
+the browser with its own architecture. There are specific limitations mentioned
+by [the official documentation](https://docs.cypress.io/guides/references/trade-offs#Permanent-trade-offs-1).
+
+- Lack of support for multi-tabs
+- Doesn't provide support for Safari, IE, Edge, and etc at the moment
+- [Difficulty working with iframes](https://www.cypress.io/blog/2020/02/12/working-with-iframes-in-cypress/)
+
+But, there is the most popular alternative to Cypress, which is [Selenium](https://www.selenium.dev/documentation/overview/).
